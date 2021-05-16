@@ -1,0 +1,123 @@
+<!-- Insert html boiler template -->
+<! DOCTYPE html>
+<html>
+    <head>
+        <link rel = "stylesheet" href="src/style.css"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700;800&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/afc2864b4c.js" crossorigin="anonymous"></script>
+        <title>Resume</title>
+        <meta charset="utf-8" />
+    </head>
+    <body>
+        <section class = 'hero'>
+            <nav>
+                <img class  = "logo" src = "src/images/logo.png" alt = "Eugene"/>
+                <ul id = "nav-list">
+                    <li><a href="#home"> Home</a></li>
+                    <li><a href= "#about"> About</a></li>
+                    <li><a href= "#portfolio"> Portfolio</a></li>
+                    <li><a href="#contact"> Contact</a></li>
+                </ul>
+                <button class = 'hamburger' id = 'hamburger'>
+                    <i class="fas fa-bars"></i>
+                </button> 
+            </nav>
+            <div class = "hero-text-area">
+                <div class="hero-text">
+                    <h1>Iwuchukwu Eugene</h1>
+                    <p>Technical Product Manager</p>
+                    <div class='button'> <a href = "#contact"> contact</a></div>
+                </div>
+                <div class = "socials">
+                    <div class = "social">
+                        <a href="https://web.facebook.com/chibuike.eugene.3"> <img src= "src/images/facebook.png" alt="facebook" width="32" height="32"/></a>
+                    </div>
+                    <div class = "social">
+                        <a href="https://twitter.com/ChibuikeIwuchu3"> <img src="src/images/twitter.png" alt="twitter" width="32"
+                                height="32"/></a>
+                    </div>
+                    <div class = "social">
+                        <a href="https://www.linkedin.com/in/chuby6/"> <img src="src/images/linkedin.png" alt="linkedin" width="32"
+                                height="32"/></a>
+                    </div>
+                    <div class = "social">
+                        <a href="https://github.com/chibuikeeugene"> <img src="src/images/github.png" alt="github" width="32"
+                                height="32"/></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class = 'sub-section' id = "about">
+            <div class = 'information'>
+                <h2>About</h2>
+                <p>
+                    A Software Technical Product Manager with 5 years of experience.
+                    A Data Science professional with practical knowledge of Cloud Computing,
+                    Data Engineering and Machine learning Development. Do check out my Github!
+                </p>
+                <p class = 'sub-text1'>
+                    " Result-driven with a strong background and broad set of skills. Having a progressive experience in continuous
+                    improvement and process development. Well-rounded, hands-on, innovative team player and leader, committed to practical
+                    implementation of business concepts. Enthusiastic, resilient, adaptable, flexible achiever with keen attention to
+                    detail. Having a growth mindset that is passionate about providing a high-quality project that creates a real impact on
+                    customer’s satisfaction. "
+                </p>
+            </div>
+            <div class = 'headshot-container'>
+                <img class = 'headshot' src = 'src/images/Eugene-photo.jpg' alt = 'my-photo'/>
+            </div>
+        </section>
+        <hr />
+        <section class = 'sub-section-alternative' id = 'portfolio'>
+            <h2>Portfolio</h2>
+            <div class = 'project-container'>
+                <div class = 'project-card'>
+                    <img class = 'portfolio-images' src="src/images/filmhouse.png" alt="filmhouse"/>
+                    <h3>Filmhouse +</h3>
+                    <p class = 'sub-text'> Filmhouse plus is a Nigeria Netflix edition of online movie rentals and purchasing platform. </p>
+                    <hr/>
+                    <p class = 'sub-text'><a class = "portfolio-link" href="http://app.filmhouseng.com/">View here </a></p>
+                </div>
+                <div class = 'project-card'>
+                    <img class='portfolio-images' src="src/images/zupa.png" alt="Zupa"/>
+                    <h3>Zupa</h3>
+                    <p class='sub-text'> Zupa is web/mobile app platform that helps small businesses manage sales, inventory and logistics. </p>
+                    <hr />
+                    <p class='sub-text'><a class = "portfolio-link" href='https://zupa.ng/'>View here </a> </p>
+                </div>
+                <div class = 'project-card'>
+                    <img class='portfolio-images' src="src/images/rocketpay.png" alt="Rocketpay" />
+                    <h3>Rocketpay</h3>
+                    <p class='sub-text'> Rocketpay is a mobile app that gives quick personal loans in minutes without collateral. </p>
+                    <hr />
+                    <p class='sub-text'> <a class = "portfolio-link" href="https://rocketpay.ng/">View here </a></p>
+                </div>
+                <div class = 'project-card'>
+                    <img class='portfolio-images' src="src/images/kaiglo.png" alt="Kaiglo" />
+                    <h3>Kaiglo</h3>
+                    <p class='sub-text'> Kaiglo is an online marketplace where merchants and buyers transact commodities freely. </p>
+                    <hr />
+                    <p class='sub-text'> <a class = "portfolio-link" href="https://kaiglo.com/">View here </a></p>
+                </div>
+            </div>
+        </section>
+        <footer id = 'contact'>
+            <div class = "contact">
+                <h2>Contact</h2>
+            </div>
+            <div>
+                <h3>Email: chibuikeeugene@gmail.com</h3>
+                <p>Address: International Airport road, Oshodi, Lagos, Nigeria</p>
+                <p>Phone no: 09083206129</p>
+            </div>
+            <div class="forms">
+                <form action="mailto:chibuikeeugene@gmail.com" , method="POST" , name="Emailform">
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </footer>
+
+        <script src = "src/app.js"></script>
+    </body>
+</html>
